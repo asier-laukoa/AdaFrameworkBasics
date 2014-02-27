@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ADA Framework Basic Example</string>
+	<string name="buttonAddNew">Add New Employee</string>
+	<string name="buttonDelete">Delete</string>
+	<string name="buttonSave">Save</string>
+	<string name="buttonCancel">Cancel</string>
+	
+	<string name="action_settings">Action Settings</string>
+	
+	<string name="labelName">* Name:</string>
+	<string name="labelSurname">* Surname:</string>
+	<string name="labelAge">Age:</string>
+	<string name="labelEmail">E-Mail:</string>
+	<string name="labelActive">Active:</string>
+	<string name="labelUserName">Username:</string>
+	<string name="labelPassword">Password:</string>
+	
+	<string name="messageEmployeeValidationErrorTitle">The next fields are not correct:</string>
+	<string name="messageEmployeeNameRequired">The Employee Name is required.</string>
+	<string name="messageEmployeeSurnameRequired">The Employee Surname is required.</string>
+	<string name="messageEmployeeNameFormat">The Name field format is not correct [a-z].</string>
+	<string name="messageEmployeeAgeRange">The Age field must be between 1 and 99.</string>
+	<string name="messageEmployeeEmailFormat">The Email field format is not correct.</string>
+</resources>

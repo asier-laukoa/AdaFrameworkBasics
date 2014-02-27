@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/employeeDataForm"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    android:stretchColumns="1"
+    tools:context=".employeeDetailActivity" >
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelName" />
+
+        <EditText
+            android:id="@+id/employeeName"
+            android:layout_width="match_parent"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelSurname" />
+
+        <EditText
+            android:id="@+id/employeeSurname"
+            android:layout_width="match_parent"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelAge" />
+
+        <EditText
+            android:id="@+id/employeeAge"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="date" />
+    </TableRow>
+    
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelEmail" />
+
+        <EditText
+            android:id="@+id/employeeEmail"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+    
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelUserName" />
+
+        <EditText
+            android:id="@+id/employeeUserName"
+            android:layout_width="match_parent"
+            android:inputType="text" />
+    </TableRow>
+    
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelPassword" />
+
+        <EditText
+            android:id="@+id/employeePassword"
+            android:layout_width="match_parent"
+            android:inputType="textPassword" />
+    </TableRow>    
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:layout_marginLeft="5dip"
+            android:text="@string/labelActive" />
+
+        <CheckBox android:id="@+id/employeeActive" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="right" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="executeDeleteCommand"
+            android:text="@string/buttonDelete" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="executeSaveCommand"
+            android:text="@string/buttonSave" />
+    </TableRow>
+
+</TableLayout>
